@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 10 seconds × 30 FPS = 300 frames.
     // Give the user plenty of scrolling distance.
-    section.style.height = "3000vh";
+    section.style.height = "600vh";
 
     gsap.to(playhead, {
       frame: FRAME_COUNT - 1,
