@@ -3,14 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ramani Incense</title>
+  <meta name="description" content="Ramani Incenses — premium incense from Mayapur, India. Explore fragrances and wholesale opportunities.">
+  <title>Ramani Incenses — The Fragrance of Mayapur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="nav">
+    <a class="brand" href="#top">RAMANI <span>INCENSES</span></a>
+    <nav>
+      <a href="#story">Our Story</a>
+      <a href="#fragrances">Fragrances</a>
+      <a href="#wholesale">Wholesale</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#wholesale">Wholesale Enquiry</a>
+  </header>
 
-  <main id="scroll-section">
-    <canvas id="sequence-canvas"></canvas>
+  <main id="top">
+    <section id="scroll-section" class="hero">
+      <canvas id="sequence-canvas"></canvas>
+      <div class="hero-copy">
+        <p class="eyebrow">FROM MAYAPUR · INDIA</p>
+        <h1>The Fragrance<br><em>of Mayapur</em></h1>
+        <p class="hero-text">A collection of evocative incense fragrances crafted to bring warmth, beauty and devotion into every space.</p>
+        <a class="button" href="#fragrances">Discover the collection <span>↓</span></a>
+      </div>
+      <div class="scroll-hint"><span></span> Scroll to explore</div>
+    </section>
+
+    <section id="story" class="story section-light">
+      <div class="section-inner two-col">
+        <div>
+          <p class="eyebrow dark">THE RAMANI STORY</p>
+          <h2>From the sacred land of Mayapur to the world.</h2>
+        </div>
+        <div class="body-copy">
+          <p>Ramani Incenses brings together traditional Indian fragrance culture and a carefully selected range of incense for homes, temples, businesses and retailers.</p>
+          <p>Explore fragrances inspired by timeless Indian aromas, presented for people who appreciate an atmosphere that feels warm, distinctive and memorable.</p>
+          <a class="text-link" href="#wholesale">Explore wholesale opportunities →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="fragrances" class="fragrances">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE COLLECTION</p>
+            <h2>Find your fragrance.</h2>
+          </div>
+          <p class="muted">A selection of fragrances to begin the journey.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product"><div class="product-image tone-1"><span>01</span></div><div><h3>Rasa Bihari</h3><p>Rich · Warm · Devotional</p></div></article>
+          <article class="product"><div class="product-image tone-2"><span>02</span></div><div><h3>Nag Champa</h3><p>Floral · Earthy · Classic</p></div></article>
+          <article class="product"><div class="product-image tone-3"><span>03</span></div><div><h3>Sandalwood</h3><p>Woody · Soft · Timeless</p></div></article>
+          <article class="product"><div class="product-image tone-4"><span>04</span></div><div><h3>Jasmine</h3><p>Floral · Fresh · Elegant</p></div></article>
+          <article class="product"><div class="product-image tone-5"><span>05</span></div><div><h3>Rose</h3><p>Sweet · Floral · Gentle</p></div></article>
+          <article class="product"><div class="product-image tone-6"><span>06</span></div><div><h3>Oudh</h3><p>Deep · Rich · Luxurious</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="world section-dark">
+      <div class="world-overlay"></div>
+      <div class="section-inner centered">
+        <p class="eyebrow">MAYAPUR → THE WORLD</p>
+        <h2>A fragrance worth sharing.</h2>
+        <p>Built for incense lovers, retailers, temples, restaurants, wellness spaces and wholesale partners around the world.</p>
+        <a class="button outline" href="#wholesale">Partner with Ramani</a>
+      </div>
+    </section>
+
+    <section id="wholesale" class="wholesale section-light">
+      <div class="section-inner two-col">
+        <div>
+          <p class="eyebrow dark">WHOLESALE</p>
+          <h2>Bring Ramani to your customers.</h2>
+          <p class="lead">Looking for a distinctive incense collection for your store or business? Talk to us about wholesale opportunities and worldwide shipping.</p>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <label>Your name<input required name="name" type="text" placeholder="Your name"></label>
+          <label>Email<input required name="email" type="email" placeholder="you@example.com"></label>
+          <label>Message<textarea required name="message" rows="5" placeholder="Tell us about your wholesale requirement"></textarea></label>
+          <button class="button dark-button" type="submit">Request information <span>→</span></button>
+          <p id="form-note" class="form-note"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="section-inner centered">
+        <p class="eyebrow">FROM OUR CUSTOMERS</p>
+        <blockquote>“The fragrance creates an atmosphere that people notice and remember.”</blockquote>
+        <p class="quote-source">— Ramani Incenses customer</p>
+      </div>
+    </section>
+
+    <section id="contact" class="footer-cta">
+      <div class="section-inner centered">
+        <p class="eyebrow">DISCOVER THE COLLECTION</p>
+        <h2>Let your space tell a story.</h2>
+        <a class="button" href="#fragrances">Explore fragrances</a>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="section-inner footer-row">
+      <div class="brand">RAMANI <span>INCENSES</span></div>
+      <p>Premium incense from Mayapur, India.</p>
+      <p>© <span id="year"></span> Ramani Incenses</p>
+    </div>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
