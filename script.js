@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // IMAGE SEQUENCE SETTINGS
   // ============================================================
 
-  const FRAME_COUNT = 300;
+  const FRAME_COUNT = 268;
 
   // Your exact file naming:
   // ezgif-frame-001.jpg
